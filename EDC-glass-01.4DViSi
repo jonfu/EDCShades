@@ -1,0 +1,50 @@
+﻿Version     0.0
+Platform    uTOLED-20-G2-L
+PlatRes     128x160
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  0
+    SndBuf                       0
+end
+Form
+    Name                         Form2
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Video
+    Name                         Video1
+    Frames.First                 0
+    Frames.Last                  1349
+    Frames.FrameDelay            33
+    Height                       128
+    Left                         0
+    Source.Height                240
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 320
+    Visible                      Yes
+    Top                          0
+    Video                        edc-glasses-candi3.mpg
+    Width                        160
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end

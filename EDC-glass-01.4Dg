@@ -1,0 +1,35 @@
+#platform "GOLDELOX"
+
+// Program Skeleton 1.0 generated 11/20/2013 8:58:42 PM
+
+#inherit "4DGL_16bitColours.fnc"
+
+#inherit "VisualConst.inc"
+
+#inherit "EDC-glass-01Const.inc"
+
+func main()
+//  Uncomment the following if uSD images, fonts or strings used.
+
+    print("Starting\n") ;
+    pause(100);
+
+
+    while(media_Init()==0);
+
+
+
+    gfx_Set(SCREEN_MODE,LANDSCAPE) ;
+
+    // Video1 1.0 generated 4/23/2014 1:40:26 PM
+    media_SetAdd(iVideo1H, iVideo1L) ;      // point to the Video1 image
+    gfx_Set(SCREEN_MODE,PORTRAIT) ;        // On uTOLED-20-G2 videos+images only work in PORTRAIT
+
+    repeat
+
+    media_Video(0, 0) ;                     // show video
+    //gfx_Set(SCREEN_MODE,LANDSCAPE) ;      // Restore 'operating' orientation
+
+    forever
+endfunc
+
