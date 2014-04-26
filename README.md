@@ -17,11 +17,12 @@ Here are the parts of software you need. You can look for them on eBay if 4DS ma
 and instructions:
 *	Low level format your microSD card, and plug the microSD card via a USB adaptor to your computer
 *	Install Workshop 4 IDE
-*	Use the files I provided, or create your own using Visi with appropriate horizontal orientation
+*	Connect the uTOLED-20-G2 via uUSB-PA5 to your computer
+*	Use the files I provided here, or create your own using Visi with appropriate uTOLED-20-G2 horizontal orientation
 *	Click on "Widgets" -> "System/Media" -> "Video"
-*	Choose a video clip
+*	Choose a video clip (edit it so it's relatively small, and as close to 160x128 as possible)
 *	Click on the mock display panel in Form1
-*	Expand the entire video to full screen
+*	Expand the entire video to full screen (160x128)
 *	Click on "Comp 'n Load"
 *	It will ask you to choose a RAW drive, simply choose the one you just low level formatted
 *	Remove the microSD card and plug it into your OLED display
